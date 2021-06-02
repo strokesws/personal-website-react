@@ -7,7 +7,7 @@ import 'App.css';
 
 function App(): ReactElement {
   return (
-    <>
+    <div className="h-screen overflow-y-auto flex flex-col bg-gray-100">
       <Router>
         <HeaderMenu />
 
@@ -17,7 +17,7 @@ function App(): ReactElement {
           </Route>
         </Switch>
       </Router>
-    </>
+    </div>
   );
 }
 

@@ -3,12 +3,14 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Home from 'views/Home';
 import HeaderMenu from 'components/HeaderMenu';
 
+import 'App.css';
+
 function App(): ReactElement {
   return (
     <>
-      <HeaderMenu />
-
       <Router>
+        <HeaderMenu />
+
         <Switch>
           <Route path="/">
             <Home />

@@ -26,6 +26,12 @@ module.exports = {
     'react/jsx-filename-extension': ['warn', { extensions: ['.tsx'] }],
     'no-shadow': 'off',
     '@typescript-eslint/no-shadow': ['error'],
+    'max-len': [
+      'warn',
+      {
+        code: 80,
+      },
+    ],
 
     'import/extensions': [
       'error',

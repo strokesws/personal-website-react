@@ -1,0 +1,9 @@
+a {
+  text-decoration: underline transparent;
+  transition: color 300ms;
+  @apply text-red-400;
+}
+
+a:hover {
+  @apply text-red-500;
+}
